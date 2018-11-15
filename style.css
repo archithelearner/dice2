@@ -1,0 +1,70 @@
+/* this is reset.css, basically resets all the defaults styles.*/
+/*a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}*/
+
+/* target all elements */
+body {
+    background-color: rgb(0, 255, 255);
+
+}
+.section {
+    width: 50%;
+}
+
+.box {
+    width: 600px;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 20%;
+    border: 1px solid red;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#player-0 {
+    text-align: center;
+}
+
+#player-1 {
+    text-align: center;
+}
+
+#img {
+visibility: hidden;
+}
+
+.player-current-score {
+    margin-top:500px; 
+}
+
+ #current-score-0{
+margin-top: 2%;
+ }   
+ #current-score-1{
+     margin-top: 2%;
+ }
+ #reset{
+     width:50px;
+     position: fixed;
+     left:45%;
+     text-align: center;
+     top:20%;
+ }
+ .menu{
+     position: fixed;
+     left:40%;
+     top:40%;
+     
+     
+ }
+
+.ext {
+     position: fixed;
+     margin-top: 140px;
+ }
+
+
+
